@@ -34,13 +34,13 @@ export const InsightsDemo = () => {
   ];
 
   return (
-    <section className="py-20 px-4 relative">
+    <section className="py-20 px-4 bg-gradient-to-r from-slate-50 to-blue-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             See AI Insights in Action
           </h2>
-          <p className="text-gray-400 text-lg">
+          <p className="text-slate-600 text-lg">
             Real-time analysis that gives you the edge in every trade
           </p>
         </div>
@@ -49,17 +49,17 @@ export const InsightsDemo = () => {
           {insights.map((insight, index) => (
             <Card 
               key={index}
-              className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 animate-fade-in"
+              className="bg-white border-slate-100 shadow-md hover:shadow-lg transition-all duration-300 animate-fade-in"
               style={{ animationDelay: `${index * 200}ms` }}
             >
               <CardContent className="p-6">
                 <div className="flex justify-between items-start mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold text-white">{insight.stock}</h3>
-                    <p className="text-gray-400">{insight.price}</p>
+                    <h3 className="text-2xl font-bold text-slate-900">{insight.stock}</h3>
+                    <p className="text-slate-600">{insight.price}</p>
                   </div>
                   <div className="text-right">
-                    <div className={`text-lg font-semibold ${insight.trend === 'up' ? 'text-green-400' : 'text-red-400'} flex items-center gap-1`}>
+                    <div className={`text-lg font-semibold ${insight.trend === 'up' ? 'text-green-600' : 'text-red-600'} flex items-center gap-1`}>
                       {insight.trend === 'up' ? <TrendingUp className="w-4 h-4" /> : <TrendingDown className="w-4 h-4" />}
                       {insight.change}
                     </div>
@@ -68,23 +68,23 @@ export const InsightsDemo = () => {
                 
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-400">Signal:</span>
+                    <span className="text-slate-600">Signal:</span>
                     <span className={`font-semibold px-3 py-1 rounded-full text-sm ${
                       insight.signal === 'Strong Buy' || insight.signal === 'Buy' 
-                        ? 'bg-green-500/20 text-green-400' 
-                        : 'bg-yellow-500/20 text-yellow-400'
+                        ? 'bg-green-100 text-green-700' 
+                        : 'bg-yellow-100 text-yellow-700'
                     }`}>
                       {insight.signal}
                     </span>
                   </div>
                   
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-400">Confidence:</span>
-                    <span className="text-white font-semibold">{insight.confidence}</span>
+                    <span className="text-slate-600">Confidence:</span>
+                    <span className="text-slate-900 font-semibold">{insight.confidence}</span>
                   </div>
                   
-                  <div className="mt-4 p-3 bg-white/5 rounded-lg">
-                    <p className="text-sm text-gray-300 leading-relaxed">{insight.analysis}</p>
+                  <div className="mt-4 p-3 bg-slate-50 rounded-lg">
+                    <p className="text-sm text-slate-700 leading-relaxed">{insight.analysis}</p>
                   </div>
                 </div>
               </CardContent>
@@ -93,10 +93,10 @@ export const InsightsDemo = () => {
         </div>
         
         <div className="text-center mt-12">
-          <p className="text-gray-400 mb-4">Updates every second • AI confidence scores • Real-time alerts</p>
+          <p className="text-slate-600 mb-4">Updates every second • AI confidence scores • Real-time alerts</p>
           <div className="flex justify-center">
-            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse mr-2"></div>
-            <span className="text-green-400 text-sm">Live Data Feed Active</span>
+            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse mr-2"></div>
+            <span className="text-green-600 text-sm">Live Data Feed Active</span>
           </div>
         </div>
       </div>

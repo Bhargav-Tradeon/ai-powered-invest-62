@@ -31,13 +31,13 @@ export const MetricsSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 relative">
+    <section className="py-20 px-4 bg-slate-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             The Numbers Speak for Themselves
           </h2>
-          <p className="text-gray-400 text-lg">
+          <p className="text-slate-600 text-lg">
             See why leading investors choose TradeOn.AI for market intelligence
           </p>
         </div>
@@ -46,7 +46,7 @@ export const MetricsSection = () => {
           {metrics.map((metric, index) => (
             <Card 
               key={index} 
-              className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 animate-fade-in"
+              className="bg-white border-slate-100 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 animate-fade-in"
               style={{ animationDelay: `${index * 200}ms` }}
             >
               <CardContent className="p-6 text-center">
@@ -55,9 +55,9 @@ export const MetricsSection = () => {
                     <metric.icon className="w-6 h-6 text-white" />
                   </div>
                 </div>
-                <div className="text-3xl font-bold text-white mb-2">{metric.value}</div>
-                <div className="text-lg font-semibold text-gray-300 mb-1">{metric.label}</div>
-                <div className="text-sm text-gray-500">{metric.description}</div>
+                <div className="text-3xl font-bold text-slate-900 mb-2">{metric.value}</div>
+                <div className="text-lg font-semibold text-slate-700 mb-1">{metric.label}</div>
+                <div className="text-sm text-slate-500">{metric.description}</div>
               </CardContent>
             </Card>
           ))}

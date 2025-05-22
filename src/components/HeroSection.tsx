@@ -6,9 +6,8 @@ export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
       {/* Background Effects */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-pink-900/20" />
-      <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000" />
+      <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500/5 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl animate-pulse delay-1000" />
       
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         {/* Logo */}
@@ -21,32 +20,32 @@ export const HeroSection = () => {
         </div>
         
         {/* Main Headline */}
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
+        <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-6 animate-fade-in">
           Stop Guessing.
           <br />
-          <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             Start Winning.
           </span>
         </h1>
         
         {/* Subheadline */}
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in delay-200">
+        <p className="text-xl md:text-2xl text-slate-700 mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in delay-200">
           Take control of your investments with AI-powered insights that analyze global markets in real-time. 
           Make confident decisions backed by data, not emotions.
         </p>
         
         {/* Value Proposition */}
         <div className="flex flex-wrap justify-center gap-8 mb-12 animate-fade-in delay-400">
-          <div className="flex items-center gap-2 text-gray-300">
-            <TrendingUp className="w-5 h-5 text-green-400" />
+          <div className="flex items-center gap-2 text-slate-700">
+            <TrendingUp className="w-5 h-5 text-green-500" />
             <span>Real-time Analysis</span>
           </div>
-          <div className="flex items-center gap-2 text-gray-300">
-            <div className="w-5 h-5 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full" />
+          <div className="flex items-center gap-2 text-slate-700">
+            <div className="w-5 h-5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full" />
             <span>AI-Driven Insights</span>
           </div>
-          <div className="flex items-center gap-2 text-gray-300">
-            <div className="w-5 h-5 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full" />
+          <div className="flex items-center gap-2 text-slate-700">
+            <div className="w-5 h-5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full" />
             <span>Global Coverage</span>
           </div>
         </div>
@@ -63,7 +62,7 @@ export const HeroSection = () => {
           <Button 
             variant="outline" 
             size="lg" 
-            className="border-gray-600 text-gray-300 hover:bg-gray-800 px-8 py-6 text-lg backdrop-blur-sm"
+            className="border-slate-300 text-slate-700 hover:bg-slate-100 px-8 py-6 text-lg"
           >
             <Play className="mr-2 w-5 h-5" />
             Watch Demo
@@ -71,7 +70,7 @@ export const HeroSection = () => {
         </div>
         
         {/* Trust Indicator */}
-        <p className="text-sm text-gray-500 mt-8 animate-fade-in delay-800">
+        <p className="text-sm text-slate-500 mt-8 animate-fade-in delay-800">
           Trusted by 50,000+ investors worldwide • No credit card required
         </p>
       </div>
