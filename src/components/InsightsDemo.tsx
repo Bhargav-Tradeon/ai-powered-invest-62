@@ -5,31 +5,31 @@ import { TrendingUp, TrendingDown, AlertTriangle } from "lucide-react";
 export const InsightsDemo = () => {
   const insights = [
     {
-      stock: "AAPL",
-      change: "+2.4%",
+      stock: "RELIANCE",
+      change: "+3.2%",
       signal: "Strong Buy",
       confidence: "94%",
       trend: "up",
-      price: "$175.23",
-      analysis: "AI detected bullish momentum pattern with high institutional buying volume"
+      price: "₹2,847.65",
+      analysis: "AI detected bullish momentum pattern with high institutional buying from FIIs and DIIs"
     },
     {
-      stock: "TSLA", 
-      change: "-1.8%",
+      stock: "TCS", 
+      change: "-1.5%",
       signal: "Hold",
       confidence: "87%",
       trend: "down",
-      price: "$238.45",
-      analysis: "Mixed signals detected - waiting for clearer trend confirmation"
+      price: "₹4,156.30",
+      analysis: "Mixed signals detected from IT sector - waiting for clearer trend confirmation post quarterly results"
     },
     {
-      stock: "NVDA",
-      change: "+5.7%",
+      stock: "HDFC BANK",
+      change: "+2.8%",
       signal: "Buy",
       confidence: "91%", 
       trend: "up",
-      price: "$456.78",
-      analysis: "Strong AI sector momentum with positive earnings sentiment analysis"
+      price: "₹1,678.45",
+      analysis: "Strong banking sector momentum with positive RBI policy sentiment and robust credit growth"
     }
   ];
 

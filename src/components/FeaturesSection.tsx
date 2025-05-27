@@ -7,37 +7,37 @@ export const FeaturesSection = () => {
     {
       icon: FileText,
       title: "Comprehensive Data Integration",
-      description: "Processes financial statements, company filings, market news, and social media sentiment for a holistic market view.",
+      description: "Processes NSE/BSE filings, annual reports, corporate announcements, and market news for a holistic Indian market view.",
       gradient: "from-blue-400 to-purple-500"
     },
     {
       icon: Brain,
       title: "AI-Driven Financial Analysis",
-      description: "Advanced algorithms delve into balance sheets, P&L statements, and cash flows to assess company financial health.",
+      description: "Advanced algorithms analyze balance sheets, P&L statements, and cash flows with SEBI compliance for Indian company assessment.",
       gradient: "from-purple-400 to-pink-500"
     },
     {
       icon: Gauge,
       title: "Real-Time Sentiment Analysis",
-      description: "Advanced sentiment tools evaluate investor mood from news, social media, and market sources in real-time.",
+      description: "Advanced sentiment tools evaluate investor mood from Economic Times, Moneycontrol, and social media in real-time.",
       gradient: "from-green-400 to-blue-500"
     },
     {
       icon: BarChart3,
       title: "Advanced Technical Analysis",
-      description: "AI tracks complex technical indicators, identifying patterns and signals overlooked by conventional methods.",
+      description: "AI tracks Nifty/Sensex patterns, identifying technical indicators specific to Indian market volatility.",
       gradient: "from-teal-400 to-blue-500"
     },
     {
       icon: TrendingUp,
       title: "User-Friendly Interface",
-      description: "Intuitive navigation with customizable dashboards tailored to your specific analysis needs and preferences.",
+      description: "Intuitive navigation with customizable dashboards tailored for Indian equity, commodity, and currency markets.",
       gradient: "from-yellow-400 to-orange-500"
     },
     {
       icon: Shield,
       title: "Unbiased Decision Making",
-      description: "Eliminate guesswork and human bias with insights purely based on data patterns and market trends.",
+      description: "Eliminate guesswork with insights based on Indian market data patterns, FII/DII flows, and regulatory updates.",
       gradient: "from-red-400 to-pink-500"
     }
   ];

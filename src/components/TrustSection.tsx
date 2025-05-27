@@ -5,22 +5,22 @@ import { Quote } from "lucide-react";
 export const TrustSection = () => {
   const testimonials = [
     {
-      quote: "TradeOn.AI transformed my trading strategy. The AI insights helped me increase my portfolio by 40% in 6 months.",
-      author: "Sarah Chen",
-      title: "Portfolio Manager, Goldman Sachs",
-      avatar: "SC"
+      quote: "TradeOn.AI transformed my trading strategy. The AI insights helped me increase my portfolio by 35% in 6 months across NSE and BSE.",
+      author: "Priya Sharma",
+      title: "Portfolio Manager, ICICI Securities",
+      avatar: "PS"
     },
     {
-      quote: "The speed and accuracy of market analysis is unmatched. It's like having a team of analysts working 24/7.",
-      author: "Michael Rodriguez", 
-      title: "Hedge Fund Director",
-      avatar: "MR"
+      quote: "The speed and accuracy of market analysis is unmatched. It's like having a team of analysts working 24/7 on Indian markets.",
+      author: "Rajesh Kumar", 
+      title: "Fund Manager, SBI Mutual Fund",
+      avatar: "RK"
     },
     {
-      quote: "Finally, an AI platform that understands both data and market psychology. Game-changing technology.",
-      author: "Jennifer Liu",
-      title: "Investment Analyst",
-      avatar: "JL"
+      quote: "Finally, an AI platform that understands both Indian market dynamics and global sentiment. Game-changing technology for SEBI compliance.",
+      author: "Anita Desai",
+      title: "Investment Analyst, Kotak Mahindra",
+      avatar: "AD"
     }
   ];
 
@@ -64,10 +64,10 @@ export const TrustSection = () => {
         <div className="text-center">
           <p className="text-slate-500 mb-8">Trusted by teams at</p>
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-70">
-            <div className="text-2xl font-bold text-slate-600">Goldman Sachs</div>
-            <div className="text-2xl font-bold text-slate-600">JP Morgan</div>
-            <div className="text-2xl font-bold text-slate-600">Fidelity</div>
-            <div className="text-2xl font-bold text-slate-600">BlackRock</div>
+            <div className="text-2xl font-bold text-slate-600">ICICI Securities</div>
+            <div className="text-2xl font-bold text-slate-600">HDFC AMC</div>
+            <div className="text-2xl font-bold text-slate-600">SBI Mutual Fund</div>
+            <div className="text-2xl font-bold text-slate-600">Kotak Mahindra</div>
           </div>
         </div>
       </div>
