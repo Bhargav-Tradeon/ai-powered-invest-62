@@ -29,7 +29,7 @@ export const APISection = () => {
             <CardContent className="p-12">
               <div className="flex flex-col lg:flex-row items-start gap-12">
                 <div className="flex-shrink-0">
-                  <div className="w-20 h-20 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-2xl flex items-center justify-center">
+                  <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
                     <Database className="w-10 h-10 text-white" />
                   </div>
                 </div>
@@ -47,7 +47,7 @@ export const APISection = () => {
                   <div className="space-y-3 mb-8">
                     {features.map((feature, index) => (
                       <div key={index} className="flex items-center gap-3">
-                        <Check className="w-5 h-5 text-emerald-500 flex-shrink-0" />
+                        <Check className="w-5 h-5 text-blue-600 flex-shrink-0" />
                         <span className="text-slate-700">{feature}</span>
                       </div>
                     ))}
@@ -55,7 +55,7 @@ export const APISection = () => {
                   
                   <Button 
                     size="lg" 
-                    className="bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white px-8 py-3"
+                    className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3"
                   >
                     Contact Us
                   </Button>
