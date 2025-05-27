@@ -1,43 +1,43 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Zap, Brain, Shield, BarChart3, Clock, Target } from "lucide-react";
+import { FileText, Brain, BarChart3, TrendingUp, Gauge, Shield } from "lucide-react";
 
 export const FeaturesSection = () => {
   const features = [
     {
-      icon: Zap,
-      title: "Lightning Speed",
-      description: "Get insights faster than the market moves. Our AI processes millions of data points in milliseconds.",
-      gradient: "from-yellow-400 to-orange-500"
-    },
-    {
-      icon: Brain,
-      title: "Deep Intelligence",
-      description: "Advanced neural networks analyze patterns, sentiment, and correlations humans miss.",
+      icon: FileText,
+      title: "Comprehensive Data Integration",
+      description: "Processes financial statements, company filings, market news, and social media sentiment for a holistic market view.",
       gradient: "from-blue-400 to-purple-500"
     },
     {
-      icon: Shield,
-      title: "Risk Control",
-      description: "AI-powered risk assessment helps you avoid pitfalls and protect your portfolio.",
+      icon: Brain,
+      title: "AI-Driven Financial Analysis",
+      description: "Advanced algorithms delve into balance sheets, P&L statements, and cash flows to assess company financial health.",
+      gradient: "from-purple-400 to-pink-500"
+    },
+    {
+      icon: Gauge,
+      title: "Real-Time Sentiment Analysis",
+      description: "Advanced sentiment tools evaluate investor mood from news, social media, and market sources in real-time.",
       gradient: "from-green-400 to-blue-500"
     },
     {
       icon: BarChart3,
-      title: "Visual Analytics",
-      description: "Interactive dashboards that turn complex data into clear, actionable insights.",
-      gradient: "from-purple-400 to-pink-500"
-    },
-    {
-      icon: Clock,
-      title: "24/7 Monitoring",
-      description: "Never miss an opportunity with round-the-clock market surveillance and alerts.",
+      title: "Advanced Technical Analysis",
+      description: "AI tracks complex technical indicators, identifying patterns and signals overlooked by conventional methods.",
       gradient: "from-teal-400 to-blue-500"
     },
     {
-      icon: Target,
-      title: "Precision Targeting",
-      description: "Identify high-probability trades with surgical precision using AI pattern recognition.",
+      icon: TrendingUp,
+      title: "User-Friendly Interface",
+      description: "Intuitive navigation with customizable dashboards tailored to your specific analysis needs and preferences.",
+      gradient: "from-yellow-400 to-orange-500"
+    },
+    {
+      icon: Shield,
+      title: "Unbiased Decision Making",
+      description: "Eliminate guesswork and human bias with insights purely based on data patterns and market trends.",
       gradient: "from-red-400 to-pink-500"
     }
   ];
@@ -47,11 +47,11 @@ export const FeaturesSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Why Choose TradeOn.AI?
+            Unlock Market Intelligence Like Never Before
           </h2>
           <p className="text-slate-600 text-lg max-w-3xl mx-auto">
-            Experience the perfect combination of speed, intelligence, and control. 
-            Our platform eliminates guesswork and puts data-driven confidence at your fingertips.
+            Experience the perfect combination of comprehensive coverage, AI precision, and lightning-fast analysis. 
+            Our platform delivers insights that are broader, deeper, and faster than ever before.
           </p>
         </div>
         

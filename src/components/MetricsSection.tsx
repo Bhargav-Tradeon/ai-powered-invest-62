@@ -1,32 +1,32 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { TrendingUp, Zap, Globe, Users } from "lucide-react";
+import { TrendingUp, Zap, Globe, Database } from "lucide-react";
 
 export const MetricsSection = () => {
   const metrics = [
     {
-      icon: TrendingUp,
-      value: "94%",
-      label: "Accuracy Rate",
-      description: "AI predictions vs market outcomes"
+      icon: Database,
+      value: "Millions",
+      label: "Data Points/Minute",
+      description: "Continuous analysis at unprecedented scale"
     },
     {
       icon: Zap,
-      value: "<50ms",
-      label: "Analysis Speed",
-      description: "Real-time data processing"
+      value: "<1s",
+      label: "Insight Generation",
+      description: "Lightning-fast AI processing speed"
     },
     {
       icon: Globe,
-      value: "180+",
-      label: "Global Markets",
-      description: "Countries and exchanges covered"
+      value: "360°",
+      label: "Market Coverage", 
+      description: "Comprehensive global data integration"
     },
     {
-      icon: Users,
-      value: "50K+",
-      label: "Active Users",
-      description: "Professional investors trust us"
+      icon: TrendingUp,
+      value: "24/7",
+      label: "Market Monitoring",
+      description: "Always accessible, always updated"
     }
   ];
 
@@ -35,10 +35,10 @@ export const MetricsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            The Numbers Speak for Themselves
+            Beyond Human Scope and Speed
           </h2>
           <p className="text-slate-600 text-lg">
-            See why leading investors choose TradeOn.AI for market intelligence
+            Our AI scans millions of data points every minute, detecting patterns that would take human analysts weeks to uncover
           </p>
         </div>
         
